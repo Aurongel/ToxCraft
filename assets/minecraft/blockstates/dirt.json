@@ -1,0 +1,11 @@
+{
+    "variants": {
+        "": [
+            { "model": "block/dirt/dirt_1" },
+            { "model": "block/dirt/dirt_2" },
+            { "model": "block/dirt/dirt_3" },
+			{ "model": "block/dirt/dirt_4" },
+			{ "model": "block/dirt/dirt_5" }
+        ]
+    }
+}

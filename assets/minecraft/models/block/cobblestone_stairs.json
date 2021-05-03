@@ -1,0 +1,36 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/stairs",
+	"textures": {
+		"1": "block/variants/cobblestone/cobblestone_stair",
+		"2": "block/variants/cobblestone/cobblestone_1",
+		"4": "block/variants/cobblestone/cobblestone_stair_mirror",
+		"5": "block/variants/cobblestone/cobblestone_slab",
+		"particle": "block/variants/cobblestone/cobblestone_stair"
+	},
+	"elements": [
+		{
+			"from": [8, 0, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 8, 16], "texture": "#1", "cullface": "north"},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#2", "cullface": "east"},
+				"south": {"uv": [8, 0, 16, 16], "texture": "#4", "cullface": "south"},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#5"},
+				"up": {"uv": [0, 0, 16, 8], "rotation": 90, "texture": "#2", "cullface": "up"},
+				"down": {"uv": [0, 8, 16, 16], "rotation": 270, "texture": "#2", "cullface": "down"}
+			}
+		},
+		{
+			"from": [0, 0, 0],
+			"to": [8, 8, 16],
+			"faces": {
+				"north": {"uv": [8, 8, 16, 16], "texture": "#1", "cullface": "north"},
+				"south": {"uv": [0, 8, 8, 16], "texture": "#4", "cullface": "south"},
+				"west": {"uv": [0, 8, 16, 16], "texture": "#5", "cullface": "west"},
+				"up": {"uv": [0, 8, 16, 16], "rotation": 90, "texture": "#2"},
+				"down": {"uv": [0, 0, 16, 8], "rotation": 270, "texture": "#2", "cullface": "down"}
+			}
+		}
+	]
+}

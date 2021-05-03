@@ -1,0 +1,47 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"0": "block/variants/redstone/redstone_wire",
+		"particle": "block/variants/redstone/redstone_wire"
+	},
+	"elements": [
+		{
+			"from": [6.5, 0, 8],
+			"to": [9.5, 0.5, 16],
+			"faces": {
+				"north": {"uv": [11.5, 0, 14.5, 0.5], "rotation": 180, "texture": "#0"},
+				"east": {"uv": [11.5, 8, 12, 0], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [11.5, 15.5, 14.5, 16], "texture": "#0"},
+				"west": {"uv": [14, 8, 14.5, 0], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [11.5, 8, 14.5, 0], "texture": "#0"},
+				"down": {"uv": [11.5, 8, 14.5, 0], "rotation": 180, "texture": "#0"}
+			}
+		},
+		{
+			"from": [5, 0.1, 8],
+			"to": [11, 0.1, 9],
+			"faces": {
+				"north": {"uv": [11.5, 0, 14.5, 0.5], "rotation": 180, "texture": "#0"},
+				"east": {"uv": [11.5, 0, 12, 16], "rotation": 90, "texture": "#0"},
+				"south": {"uv": [10, 7, 16, 9], "texture": "#0"},
+				"west": {"uv": [14, 0, 14.5, 16], "rotation": 270, "texture": "#0"},
+				"up": {"uv": [10, 8, 16, 9], "texture": "#0"},
+				"down": {"uv": [10, 7, 16, 9], "rotation": 180, "texture": "#0"}
+			}
+		}
+	],
+	"groups": [
+		{
+			"name": "redstone_dust_side",
+			"origin": [8, 8, 8],
+			"children": [
+				{
+					"name": "redstone_dust_up",
+					"origin": [8, 8, 8],
+					"children": [0, 1]
+				}
+			]
+		}
+	]
+}

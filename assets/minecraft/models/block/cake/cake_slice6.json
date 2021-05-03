@@ -1,0 +1,21 @@
+{
+	"credit": "Made with Blockbench",
+	"textures": {
+		"3": "block/cake"
+	},
+	"elements": [
+		{
+			"from": [8, 0, 1],
+			"to": [16, 2, 15],
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [14, 4, 8]},
+			"faces": {
+				"north": {"uv": [7, 4, 8, 8], "rotation": 90, "texture": "#3"},
+				"east": {"uv": [6, 7, 7, 14], "rotation": 270, "texture": "#3"},
+				"south": {"uv": [13, 4, 14, 8], "rotation": 270, "texture": "#3"},
+				"west": {"uv": [15, 9, 16, 16], "rotation": 270, "texture": "#3"},
+				"up": {"uv": [7, 4, 14, 8], "rotation": 270, "texture": "#3"},
+				"down": {"uv": [7, 0, 14, 4], "rotation": 270, "texture": "#3"}
+			}
+		}
+	]
+}

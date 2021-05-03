@@ -1,0 +1,48 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/cross",
+	"textures": {
+		"cross": "block/variants/tulip/orange_tulip"
+	},
+	"elements": [
+		{
+			"from": [8, 0, -7],
+			"to": [8, 16, 25],
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [8, 8, 9]},
+			"faces": {
+				"north": {"uv": [0, 0, 0, 16], "texture": "#missing"},
+				"east": {"uv": [0, 0, 16, 8], "texture": "#cross"},
+				"south": {"uv": [0, 0, 0, 16], "texture": "#missing"},
+				"west": {"uv": [0, 0, 16, 8], "texture": "#cross"},
+				"up": {"uv": [0, 0, 0, 16], "texture": "#missing"},
+				"down": {"uv": [0, 0, 0, 16], "texture": "#missing"}
+			}
+		},
+		{
+			"from": [-10, 0, 9],
+			"to": [22, 16, 9],
+			"rotation": {"angle": 22.5, "axis": "y", "origin": [6, 8, 9]},
+			"faces": {
+				"north": {"uv": [0, 8, 16, 16], "texture": "#cross"},
+				"east": {"uv": [0, 0, 0, 16], "texture": "#missing"},
+				"south": {"uv": [0, 0, 16, 8], "texture": "#cross"},
+				"west": {"uv": [0, 0, 0, 16], "texture": "#missing"},
+				"up": {"uv": [0, 0, 0, 16], "rotation": 90, "texture": "#missing"},
+				"down": {"uv": [0, 0, 0, 16], "rotation": 270, "texture": "#missing"}
+			}
+		},
+		{
+			"from": [-10, 0, 8],
+			"to": [22, 16, 8],
+			"rotation": {"angle": -45, "axis": "y", "origin": [6, 8, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 8], "texture": "#cross"},
+				"east": {"uv": [0, 0, 0, 16], "texture": "#missing"},
+				"south": {"uv": [0, 0, 16, 8], "texture": "#cross"},
+				"west": {"uv": [0, 0, 0, 16], "texture": "#missing"},
+				"up": {"uv": [0, 0, 0, 16], "rotation": 90, "texture": "#missing"},
+				"down": {"uv": [0, 0, 0, 16], "rotation": 270, "texture": "#missing"}
+			}
+		}
+	]
+}

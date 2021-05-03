@@ -1,0 +1,41 @@
+{
+	"credit": "Made with Blockbench",
+	"ambientocclusion": false,
+	"textures": {
+		"1": "block/variants/lilypad/lily_pad_extra",
+		"particle": "block/lily_pad",
+		"texture": "block/lily_pad"
+	},
+	"elements": [
+		{
+			"from": [0, -1.75, 0],
+			"to": [16, -1.75, 16],
+			"faces": {
+				"up": {"uv": [16, 0, 0, 16], "texture": "#texture", "tintindex": 0},
+				"down": {"uv": [16, 16, 0, 0], "texture": "#texture", "tintindex": 0}
+			}
+		},
+		{
+			"from": [4, -9.75, 8],
+			"to": [11, -1.75, 8],
+			"rotation": {"angle": -45, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"north": {"uv": [9, 8.5, 16, 16], "texture": "#1"},
+				"south": {"uv": [9, 8.5, 16, 16], "texture": "#1"},
+				"up": {"uv": [16, 0, 0, 16], "texture": "#texture", "tintindex": 0},
+				"down": {"uv": [16, 16, 0, 0], "texture": "#texture", "tintindex": 0}
+			}
+		},
+		{
+			"from": [7.29289, -9.75, 4.70711],
+			"to": [7.29289, -1.75, 11.70711],
+			"rotation": {"angle": -45, "axis": "y", "origin": [8, 8, 8]},
+			"faces": {
+				"east": {"uv": [9, 8.5, 16, 16], "texture": "#1"},
+				"west": {"uv": [9, 8.5, 16, 16], "texture": "#1"},
+				"up": {"uv": [16, 0, 0, 16], "rotation": 90, "texture": "#texture", "tintindex": 0},
+				"down": {"uv": [16, 16, 0, 0], "rotation": 270, "texture": "#texture", "tintindex": 0}
+			}
+		}
+	]
+}

@@ -1,0 +1,8 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/block",
+	"textures": {
+		"1": "block/dripleaf_stem",
+		"particle": "block/dripleaf_stem"
+	}
+}

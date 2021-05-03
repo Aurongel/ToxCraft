@@ -1,0 +1,65 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/tinted_cross",
+	"textures": {
+		"cross": "block/variants/seagrass/seagrass_2"
+	},
+	"elements": [
+		{
+			"name": "seagrass",
+			"from": [-0.06299, -1, 3.30029],
+			"to": [15.93701, 31, 3.30029],
+			"rotation": {"angle": 45, "axis": "y", "origin": [7.93701, 8, 3.30029]},
+			"faces": {
+				"north": {"uv": [4, 0, 12, 16], "texture": "#cross", "tintindex": 0},
+				"east": {"uv": [0, 0, 0, 8], "texture": "#missing", "tintindex": 0},
+				"south": {"uv": [4, 0, 12, 16], "texture": "#cross", "tintindex": 0},
+				"west": {"uv": [0, 0, 0, 8], "texture": "#missing", "tintindex": 0},
+				"up": {"uv": [0, 0, 0, 8], "rotation": 270, "texture": "#missing", "tintindex": 0},
+				"down": {"uv": [0, 0, 0, 8], "rotation": 90, "texture": "#missing", "tintindex": 0}
+			}
+		},
+		{
+			"name": "seagrass1",
+			"from": [7.93701, 0, -4.69971],
+			"to": [7.93701, 32, 11.30029],
+			"rotation": {"angle": 22.5, "axis": "y", "origin": [7.93701, 8, 3.30029]},
+			"faces": {
+				"north": {"uv": [0, 0, 0, 8], "texture": "#missing", "tintindex": 0},
+				"east": {"uv": [4, 0, 12, 16], "texture": "#cross", "tintindex": 0},
+				"south": {"uv": [0, 0, 0, 8], "texture": "#missing", "tintindex": 0},
+				"west": {"uv": [4, 0, 12, 16], "texture": "#cross", "tintindex": 0},
+				"up": {"uv": [0, 0, 0, 8], "rotation": 180, "texture": "#missing", "tintindex": 0},
+				"down": {"uv": [0, 0, 0, 8], "rotation": 180, "texture": "#missing", "tintindex": 0}
+			}
+		},
+		{
+			"name": "seagrass2",
+			"from": [5.43701, -2, 10.70029],
+			"to": [21.43701, 30, 10.70029],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.93701, 8, 3.30029]},
+			"faces": {
+				"north": {"uv": [4, 0, 12, 16], "texture": "#cross", "tintindex": 0},
+				"east": {"uv": [0, 0, 0, 8], "texture": "#missing", "tintindex": 0},
+				"south": {"uv": [4, 0, 12, 16], "texture": "#cross", "tintindex": 0},
+				"west": {"uv": [0, 0, 0, 8], "texture": "#missing", "tintindex": 0},
+				"up": {"uv": [0, 0, 0, 8], "rotation": 90, "texture": "#missing", "tintindex": 0},
+				"down": {"uv": [0, 0, 0, 8], "rotation": 270, "texture": "#missing", "tintindex": 0}
+			}
+		},
+		{
+			"name": "seagrass3",
+			"from": [13.43701, -3, 2.70029],
+			"to": [13.43701, 29, 18.70029],
+			"rotation": {"angle": 0, "axis": "y", "origin": [7.93701, 8, 3.30029]},
+			"faces": {
+				"north": {"uv": [0, 0, 0, 8], "texture": "#missing", "tintindex": 0},
+				"east": {"uv": [4, 0, 12, 16], "texture": "#cross", "tintindex": 0},
+				"south": {"uv": [0, 0, 0, 8], "texture": "#missing", "tintindex": 0},
+				"west": {"uv": [4, 0, 12, 16], "texture": "#cross", "tintindex": 0},
+				"up": {"uv": [0, 0, 0, 8], "rotation": 180, "texture": "#missing", "tintindex": 0},
+				"down": {"uv": [0, 0, 0, 8], "rotation": 180, "texture": "#missing", "tintindex": 0}
+			}
+		}
+	]
+}

@@ -1,0 +1,9 @@
+{
+    "parent": "block/cube_bottom_top",
+    "textures": {
+        "bottom": "block/netherrack",
+		"particle": "block/netherrack",
+        "top": "block/variants/crimson_nylium/crimson_nylium_top_2",
+        "side": "block/variants/crimson_nylium/crimson_nylium_side_2"
+    }
+}

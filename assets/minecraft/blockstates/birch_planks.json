@@ -1,0 +1,13 @@
+{
+    "variants": {
+        "": [
+            { "model": "block/planks/birch_planks/birch_planks_1" },
+            { "model": "block/planks/birch_planks/birch_planks_2" },
+            { "model": "block/planks/birch_planks/birch_planks_3" },
+			{ "model": "block/planks/birch_planks/birch_planks_4" },
+			{ "model": "block/planks/birch_planks/birch_planks_5" }
+        ]
+    }
+}
+
+

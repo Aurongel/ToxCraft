@@ -1,0 +1,6 @@
+{
+    "parent": "block/crimson_fungi",
+    "textures": {
+        "layer0": "block/crimson_fungi"
+    }
+}

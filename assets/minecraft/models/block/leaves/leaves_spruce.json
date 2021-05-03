@@ -1,0 +1,89 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "spruce_leaves",
+	"textures": {
+		"1": "block/variants/leaves_extra/leaves_extra_spruce",
+		"particle": "block/variants/leaves_extra/leaves_extra_spruce"
+	},
+	"elements": [
+		{
+			"name": "extra 5",
+			"from": [15.18313, -14.35385, -10],
+			"to": [15.18313, 17.64615, 22],
+			"shade": false,
+			"rotation": {"angle": 22.5, "axis": "z", "origin": [8.17477, 4.33542, 8]},
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0}
+			}
+		},
+		{
+			"name": "extra 6",
+			"from": [-7.82523, -12.6646, 13.54328],
+			"to": [24.17477, 19.3354, 13.54328],
+			"shade": false,
+			"rotation": {"angle": -22.5, "axis": "x", "origin": [8.17477, 4.33542, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0}
+			}
+		},
+		{
+			"name": "extra 7",
+			"from": [0.78374, -13.42996, -7],
+			"to": [0.78374, 18.57004, 25],
+			"shade": false,
+			"rotation": {"angle": -22.5, "axis": "z", "origin": [8.17477, 4.33542, 8]},
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0}
+			}
+		},
+		{
+			"name": "extra 8",
+			"from": [-8.53233, -9.42997, 7.90186],
+			"to": [23.46767, 22.57003, 7.90186],
+			"shade": false,
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [8.17477, 4.33542, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0}
+			}
+		},
+		{
+			"name": "extra 8",
+			"from": [-6.82523, -11.80637, -3.31073],
+			"to": [25.17477, 20.19363, -3.31073],
+			"shade": false,
+			"rotation": {"angle": 22.5, "axis": "x", "origin": [8.17477, 2.57003, 0.60896]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#1", "tintindex": 0}
+			}
+		}
+	],
+	"display": {
+		"thirdperson_righthand": {
+			"scale": [0.2, 0.2, 0.2]
+		},
+		"thirdperson_lefthand": {
+			"scale": [0.2, 0.2, 0.2]
+		},
+		"firstperson_righthand": {
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"firstperson_lefthand": {
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"ground": {
+			"scale": [0.2, 0.2, 0.2]
+		},
+		"gui": {
+			"rotation": [18.5, 45, 0],
+			"scale": [0.5, 0.5, 0.5]
+		},
+		"fixed": {
+			"scale": [0.5, 0.5, 0.5]
+		}
+	}
+}

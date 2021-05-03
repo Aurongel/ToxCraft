@@ -1,0 +1,6 @@
+{
+    "parent": "block/warped_fungi",
+    "textures": {
+        "layer0": "block/warped_fungi"
+    }
+}

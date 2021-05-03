@@ -1,0 +1,22 @@
+{
+    "variants": {
+        "": [
+            { "model": "block/seagrass/seagrass_1" },
+            { "model": "block/seagrass/seagrass_1", "y": 90 },
+            { "model": "block/seagrass/seagrass_1", "y": 180 },
+            { "model": "block/seagrass/seagrass_1", "y": 270 },
+            { "model": "block/seagrass/seagrass_2" },
+            { "model": "block/seagrass/seagrass_2", "y": 90 },
+            { "model": "block/seagrass/seagrass_2", "y": 180 },
+            { "model": "block/seagrass/seagrass_2", "y": 270 },
+            { "model": "block/seagrass/seagrass_3" },
+            { "model": "block/seagrass/seagrass_3", "y": 90 },
+            { "model": "block/seagrass/seagrass_3", "y": 180 },
+            { "model": "block/seagrass/seagrass_3", "y": 270 },
+            { "model": "block/seagrass/seagrass_4" },
+            { "model": "block/seagrass/seagrass_4", "y": 90 },
+            { "model": "block/seagrass/seagrass_4", "y": 180 },
+            { "model": "block/seagrass/seagrass_4", "y": 270 }
+        ]
+    }
+}

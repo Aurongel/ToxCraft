@@ -1,0 +1,7 @@
+{
+    "parent": "block/template_torch",
+    "textures": {
+		"1": "block/variants/soul_torch/soul_torch_fire",
+		"torch": "block/variants/soul_torch/soul_torch"
+		}
+}

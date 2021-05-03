@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:block/glow_lichen",
+  "textures": {
+    "layer0": "minecraft:block/glow_lichen"
+  }
+}

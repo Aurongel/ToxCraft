@@ -1,0 +1,6 @@
+{
+    "parent": "block/tinted_cross",
+    "textures": {
+        "cross": "block/variants/crimson_roots/crimson_roots_3"
+    }
+}

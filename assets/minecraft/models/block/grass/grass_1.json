@@ -1,0 +1,75 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/tinted_cross",
+	"textures": {
+		"cross": "block/variants/grass/grass_1"
+	},
+	"elements": [
+		{
+			"name": "grass",
+			"from": [11.53701, -1, -0.69971],
+			"to": [11.53701, 15, 15.30029],
+			"shade": false,
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [11.53701, 8, 7.30029]},
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "texture": "#cross", "tintindex": 0},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#cross", "tintindex": 0}
+			}
+		},
+		{
+			"name": "grass1",
+			"from": [2.53701, 0, 6.30029],
+			"to": [18.53701, 16, 6.30029],
+			"shade": false,
+			"rotation": {"angle": -45, "axis": "y", "origin": [11.53701, 8, 7.30029]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#cross", "tintindex": 0},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#cross", "tintindex": 0}
+			}
+		},
+		{
+			"name": "grass2",
+			"from": [-5.46299, -2, 10.30029],
+			"to": [10.53701, 14, 10.30029],
+			"shade": false,
+			"rotation": {"angle": 0, "axis": "y", "origin": [2.53701, 6, 10.30029]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#cross", "tintindex": 0},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#cross", "tintindex": 0}
+			}
+		},
+		{
+			"name": "grass3",
+			"from": [1.53701, 0, 14.30029],
+			"to": [17.53701, 16, 14.30029],
+			"shade": false,
+			"rotation": {"angle": 0, "axis": "y", "origin": [9.53701, 8, 14.30029]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#cross", "tintindex": 0},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#cross", "tintindex": 0}
+			}
+		},
+		{
+			"name": "grass3",
+			"from": [2.53701, -3, 2.30029],
+			"to": [2.53701, 13, 18.30029],
+			"shade": false,
+			"rotation": {"angle": 22.5, "axis": "y", "origin": [2.53701, 6, 10.30029]},
+			"faces": {
+				"east": {"uv": [0, 0, 16, 16], "texture": "#cross", "tintindex": 0},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#cross", "tintindex": 0}
+			}
+		},
+		{
+			"name": "grass4",
+			"from": [1.53701, -1, 14.30029],
+			"to": [17.53701, 15, 14.30029],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [9.53701, 8, 14.30029]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#cross", "tintindex": 0},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#cross", "tintindex": 0}
+			}
+		}
+	]
+}

@@ -1,0 +1,11 @@
+{
+    "variants": {
+        "": [
+            { "model": "block/crimson_nylium/crimson_nylium_1" },
+            { "model": "block/crimson_nylium/crimson_nylium_2" },
+            { "model": "block/crimson_nylium/crimson_nylium_3" },
+            { "model": "block/crimson_nylium/crimson_nylium_4" },
+            { "model": "block/crimson_nylium/crimson_nylium_5" }
+        ]
+    }
+}

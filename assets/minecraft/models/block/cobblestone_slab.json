@@ -1,0 +1,23 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/slab",
+	"textures": {
+		"0": "block/variants/cobblestone/cobblestone_slab",
+		"1": "block/variants/cobblestone/cobblestone_1",
+		"particle": "block/variants/cobblestone/cobblestone_slab"
+	},
+	"elements": [
+		{
+			"from": [0, 0, 0],
+			"to": [16, 8, 16],
+			"faces": {
+				"north": {"uv": [0, 8, 16, 16], "texture": "#0", "cullface": "north"},
+				"east": {"uv": [0, 8, 16, 16], "texture": "#0", "cullface": "east"},
+				"south": {"uv": [0, 8, 16, 16], "texture": "#0", "cullface": "south"},
+				"west": {"uv": [0, 8, 16, 16], "texture": "#0", "cullface": "west"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#1"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#1", "cullface": "down"}
+			}
+		}
+	]
+}

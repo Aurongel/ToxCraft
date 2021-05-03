@@ -1,0 +1,86 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/thin_block",
+	"textures": {
+		"1": "block/grass_block_snow",
+		"2": "block/snow",
+		"particle": "block/grass_block_snow"
+	},
+	"elements": [
+		{
+			"name": "Element",
+			"from": [0, 0, 0],
+			"to": [16, 2, 16],
+			"faces": {
+				"north": {"uv": [0, 14, 16, 16], "texture": "#2", "cullface": "north"},
+				"east": {"uv": [0, 14, 16, 16], "texture": "#2", "cullface": "east"},
+				"south": {"uv": [0, 14, 16, 16], "texture": "#2", "cullface": "south"},
+				"west": {"uv": [0, 14, 16, 16], "texture": "#2", "cullface": "west"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#2"},
+				"down": {"uv": [0, 0, 16, 16], "texture": "#2", "cullface": "down"}
+			}
+		},
+		{
+			"name": "grass_block_snow_1",
+			"from": [-0.025, -2, 0],
+			"to": [-0.025, 0.5, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, -7.525, 8]},
+			"faces": {
+				"east": {"uv": [0, 0, 16, 2.5], "texture": "#1", "cullface": "west"},
+				"west": {"uv": [0, 2.5, 16, 0], "rotation": 180, "texture": "#1", "cullface": "west"}
+			}
+		},
+		{
+			"name": "grass_block_snow_2",
+			"from": [0, -2, 16.025],
+			"to": [16, 0.5, 16.025],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, -7.525, 8]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 2.5], "texture": "#1", "cullface": "south"},
+				"south": {"uv": [0, 2.5, 16, 0], "rotation": 180, "texture": "#1", "cullface": "south"}
+			}
+		},
+		{
+			"name": "grass_block_snow_3",
+			"from": [16.025, -2, 0],
+			"to": [16.025, 0.5, 16],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, -7.525, 8]},
+			"faces": {
+				"east": {"uv": [0, 2.5, 16, 0], "rotation": 180, "texture": "#1", "cullface": "east"},
+				"west": {"uv": [0, 0, 16, 2.5], "texture": "#1", "cullface": "east"}
+			}
+		},
+		{
+			"name": "grass_block_snow_4",
+			"from": [0, -2, -0.025],
+			"to": [16, 0.5, -0.025],
+			"rotation": {"angle": 0, "axis": "y", "origin": [8, -7.525, 8]},
+			"faces": {
+				"north": {"uv": [0, 2.5, 16, 0], "rotation": 180, "texture": "#1", "cullface": "north"},
+				"south": {"uv": [0, 0, 16, 2.5], "texture": "#1", "cullface": "north"}
+			}
+		}
+	],
+	"groups": [0,
+		{
+			"name": "grass_block_snow",
+			"origin": [8, 8, 8],
+			"children": [1]
+		},
+		{
+			"name": "grass_block_snow",
+			"origin": [8, 8, 8],
+			"children": [2]
+		},
+		{
+			"name": "grass_block_snow",
+			"origin": [8, 8, 8],
+			"children": [3]
+		},
+		{
+			"name": "grass_block_snow",
+			"origin": [8, 8, 8],
+			"children": [4]
+		}
+	]
+}

@@ -1,0 +1,45 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "minecraft:block/inner_stairs",
+	"textures": {
+		"1": "block/variants/stone_bricks/stone_brick_st_in",
+		"3": "block/variants/stone_bricks/stone_brick_st",
+		"particle": "block/variants/stone_bricks/stone_brick_st_in"
+	},
+	"elements": [
+		{
+			"from": [0, 8, 8],
+			"to": [8, 16, 16],
+			"faces": {
+				"north": {"uv": [8, 0, 16, 8], "texture": "#3"},
+				"east": {"uv": [0, 0, 0, 0], "texture": "#3"},
+				"south": {"uv": [0, 0, 8, 8], "texture": "#3", "cullface": "south"},
+				"west": {"uv": [8, 0, 16, 8], "texture": "#3", "cullface": "west"},
+				"up": {"uv": [8, 0, 16, 8], "rotation": 180, "texture": "#1", "cullface": "up"}
+			}
+		},
+		{
+			"from": [8, 8, 0],
+			"to": [16, 16, 16],
+			"faces": {
+				"north": {"uv": [0, 0, 8, 8], "texture": "#3", "cullface": "north"},
+				"east": {"uv": [0, 0, 16, 8], "texture": "#3", "cullface": "east"},
+				"south": {"uv": [8, 0, 16, 8], "texture": "#3", "cullface": "south"},
+				"west": {"uv": [0, 0, 16, 8], "texture": "#3"},
+				"up": {"uv": [0, 0, 8, 16], "rotation": 180, "texture": "#1", "cullface": "up"}
+			}
+		},
+		{
+			"from": [0, 0, 0],
+			"to": [16, 8, 16],
+			"faces": {
+				"north": {"uv": [0, 8, 16, 16], "texture": "#3", "cullface": "north"},
+				"east": {"uv": [0, 8, 16, 16], "texture": "#3", "cullface": "east"},
+				"south": {"uv": [0, 8, 16, 16], "texture": "#3", "cullface": "south"},
+				"west": {"uv": [0, 8, 16, 16], "texture": "#3", "cullface": "west"},
+				"up": {"uv": [0, 0, 16, 16], "rotation": 180, "texture": "#1"},
+				"down": {"uv": [0, 0, 16, 16], "rotation": 90, "texture": "#1", "cullface": "down"}
+			}
+		}
+	]
+}

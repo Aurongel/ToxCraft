@@ -1,0 +1,79 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/cross",
+	"textures": {
+		"cross": "block/variants/berry_bush/berry_bush_3"
+	},
+	"elements": [
+		{
+			"name": "bush1",
+			"from": [-8, -10.29289, 7.6066],
+			"to": [24, 21.70711, 7.6066],
+			"rotation": {"angle": -45, "axis": "y", "origin": [8, 5.70711, 7.6066]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#cross"},
+				"east": {"uv": [0, 0, 0, 16], "texture": "#missing"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#cross"},
+				"west": {"uv": [0, 0, 0, 16], "texture": "#missing"},
+				"up": {"uv": [0, 0, 0, 16], "rotation": 90, "texture": "#missing"},
+				"down": {"uv": [0, 0, 0, 16], "rotation": 270, "texture": "#missing"}
+			}
+		},
+		{
+			"name": "bush2",
+			"from": [-8, -10.29289, 7.6066],
+			"to": [24, 21.70711, 7.6066],
+			"rotation": {"angle": 22.5, "axis": "z", "origin": [8, 5.70711, 7.6066]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#cross"},
+				"east": {"uv": [0, 0, 0, 16], "texture": "#missing"},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#cross"},
+				"west": {"uv": [0, 0, 0, 16], "texture": "#missing"},
+				"up": {"uv": [0, 0, 0, 16], "rotation": 90, "texture": "#missing"},
+				"down": {"uv": [0, 0, 0, 16], "rotation": 270, "texture": "#missing"}
+			}
+		},
+		{
+			"name": "bush3",
+			"from": [8, -10.29289, -8.3934],
+			"to": [8, 21.70711, 23.6066],
+			"rotation": {"angle": 0, "axis": "x", "origin": [8, 5.70711, 7.6066]},
+			"faces": {
+				"north": {"uv": [0, 0, 0, 16], "rotation": 180, "texture": "#missing"},
+				"east": {"uv": [0, 0, 16, 16], "rotation": 180, "texture": "#cross"},
+				"south": {"uv": [0, 0, 0, 16], "rotation": 180, "texture": "#missing"},
+				"west": {"uv": [0, 0, 16, 16], "rotation": 180, "texture": "#cross"},
+				"up": {"uv": [0, 0, 0, 16], "rotation": 180, "texture": "#missing"},
+				"down": {"uv": [0, 0, 0, 16], "rotation": 180, "texture": "#missing"}
+			}
+		},
+		{
+			"name": "bush4",
+			"from": [-8, -10.29289, 7.6066],
+			"to": [24, 21.70711, 7.6066],
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 5.70711, 7.6066]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "rotation": 270, "texture": "#cross"},
+				"east": {"uv": [0, 0, 0, 16], "texture": "#missing"},
+				"south": {"uv": [0, 0, 16, 16], "rotation": 90, "texture": "#cross"},
+				"west": {"uv": [0, 0, 0, 16], "rotation": 180, "texture": "#missing"},
+				"up": {"uv": [0, 0, 0, 16], "rotation": 90, "texture": "#missing"},
+				"down": {"uv": [0, 0, 0, 16], "rotation": 90, "texture": "#missing"}
+			}
+		},
+		{
+			"name": "bush5",
+			"from": [-8, 6.70711, -8],
+			"to": [24, 6.70711, 24],
+			"rotation": {"angle": 0, "axis": "y", "origin": [1, 0.70711, -4.3934]},
+			"faces": {
+				"north": {"uv": [0, 0, 0, 16], "rotation": 90, "texture": "#missing"},
+				"east": {"uv": [0, 0, 0, 16], "rotation": 90, "texture": "#missing"},
+				"south": {"uv": [0, 0, 0, 16], "rotation": 90, "texture": "#missing"},
+				"west": {"uv": [0, 0, 0, 16], "rotation": 270, "texture": "#missing"},
+				"up": {"uv": [0, 0, 16, 16], "texture": "#cross"},
+				"down": {"uv": [0, 0, 16, 16], "rotation": 180, "texture": "#cross"}
+			}
+		}
+	]
+}

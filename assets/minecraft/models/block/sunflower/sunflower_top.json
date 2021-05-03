@@ -1,0 +1,21 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/cross",
+	"ambientocclusion": false,
+	"textures": {
+		"particle": "block/sunflower",
+		"cross": "block/sunflower"
+	},
+	"elements": [
+		{
+			"from": [8, 0, 7.8],
+			"to": [8, 8, 7.8],
+			"shade": false,
+			"rotation": {"angle": 45, "axis": "y", "origin": [8, 8, 8], "rescale": true},
+			"faces": {
+				"east": {"uv": [15.5, 15.5, 16, 16], "texture": "#cross"},
+				"west": {"uv": [15.5, 15.5, 16, 16], "texture": "#missing"}
+			}
+		}
+	]
+}

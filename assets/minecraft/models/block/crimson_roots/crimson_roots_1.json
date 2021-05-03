@@ -1,0 +1,65 @@
+{
+	"credit": "Made with Blockbench",
+	"parent": "block/tinted_cross",
+	"textures": {
+		"cross": "block/variants/crimson_roots/crimson_roots_1"
+	},
+	"elements": [
+		{
+			"name": "crimson_roots",
+			"from": [11.53701, -1, -0.69971],
+			"to": [11.53701, 15, 15.30029],
+			"rotation": {"angle": -22.5, "axis": "y", "origin": [11.53701, 8, 7.30029]},
+			"faces": {
+				"north": {"uv": [0, 0, 0, 8], "texture": "#missing", "tintindex": 0},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#cross", "tintindex": 0},
+				"south": {"uv": [0, 0, 0, 8], "texture": "#missing", "tintindex": 0},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#cross", "tintindex": 0},
+				"up": {"uv": [0, 0, 0, 8], "texture": "#missing", "tintindex": 0},
+				"down": {"uv": [0, 0, 0, 8], "texture": "#missing", "tintindex": 0}
+			}
+		},
+		{
+			"name": "crimson_roots1",
+			"from": [3.53701, 0, 7.30029],
+			"to": [19.53701, 16, 7.30029],
+			"rotation": {"angle": -45, "axis": "y", "origin": [11.53701, 8, 7.30029]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#cross", "tintindex": 0},
+				"east": {"uv": [0, 0, 0, 8], "texture": "#missing", "tintindex": 0},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#cross", "tintindex": 0},
+				"west": {"uv": [0, 0, 0, 8], "texture": "#missing", "tintindex": 0},
+				"up": {"uv": [0, 0, 0, 8], "rotation": 270, "texture": "#missing", "tintindex": 0},
+				"down": {"uv": [0, 0, 0, 8], "rotation": 90, "texture": "#missing", "tintindex": 0}
+			}
+		},
+		{
+			"name": "crimson_roots2",
+			"from": [-2.46299, -2, 10.30029],
+			"to": [13.53701, 14, 10.30029],
+			"rotation": {"angle": 0, "axis": "y", "origin": [5.53701, 6, 10.30029]},
+			"faces": {
+				"north": {"uv": [0, 0, 16, 16], "texture": "#cross", "tintindex": 0},
+				"east": {"uv": [0, 0, 0, 8], "texture": "#missing", "tintindex": 0},
+				"south": {"uv": [0, 0, 16, 16], "texture": "#cross", "tintindex": 0},
+				"west": {"uv": [0, 0, 0, 8], "texture": "#missing", "tintindex": 0},
+				"up": {"uv": [0, 0, 0, 8], "rotation": 270, "texture": "#missing", "tintindex": 0},
+				"down": {"uv": [0, 0, 0, 8], "rotation": 90, "texture": "#missing", "tintindex": 0}
+			}
+		},
+		{
+			"name": "crimson_roots3",
+			"from": [5.53701, -3, 2.30029],
+			"to": [5.53701, 13, 18.30029],
+			"rotation": {"angle": 22.5, "axis": "y", "origin": [5.53701, 6, 10.30029]},
+			"faces": {
+				"north": {"uv": [0, 0, 0, 8], "texture": "#missing", "tintindex": 0},
+				"east": {"uv": [0, 0, 16, 16], "texture": "#cross", "tintindex": 0},
+				"south": {"uv": [0, 0, 0, 8], "texture": "#missing", "tintindex": 0},
+				"west": {"uv": [0, 0, 16, 16], "texture": "#cross", "tintindex": 0},
+				"up": {"uv": [0, 0, 0, 8], "texture": "#missing", "tintindex": 0},
+				"down": {"uv": [0, 0, 0, 8], "texture": "#missing", "tintindex": 0}
+			}
+		}
+	]
+}
